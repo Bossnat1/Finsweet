@@ -113,6 +113,7 @@
 
 #quote-section {
     background: #E2E6E9;
+    justify-content: space-between;
 }
 
 #quote-section .left-section, #quote-section .right-form-section {
@@ -812,6 +813,129 @@
 }
 
 
-@media (max-width: 768px) {    
+@media (max-width: 768px) { 
+    .road-assistance {
+        display: none;
+    }
+    
+    .right-section .navigation {
+        border: none;
+    }
+
+    #hero-section .container {
+        width: 90%;
+    }
+
+    .text-section h1 {
+        font-size: 37px;
+    }
+
+    #quote-section .container {
+        width: 90%;
+    }
+
+    #quote-section .left-section h2 {
+        font-size: 35px;
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #quote-section .right-form-section {
+        margin-left: 40px;
+    }
+
+    #third .container {
+        width: 90%;
+    }
+
+    #third .help {
+        width: 40%;
+    }
+
+    .help h4 {
+        font-size: 37px;
+    }
+
+    #third .activities {
+        margin-left: 60px;
+    }
+
+    #third .activities .text-circle {
+        margin-left: 20px;
+    }
+
+    #repair-maintenance h5 {
+        font-size: 37px;
+    }
+
+    #repair-maintenance h2 {
+        font-size: 16px;
+    }
+
+    #repair-maintenance .services .service-box {
+        width: 32%;
+    }
+
+    #query-section {
+        flex-direction: column;
+    }
+
+    #query-section .car-section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #query-section .orange-section {
+        width: 100%;
+    }
+
+    #query-section .engine-section {
+        width: 100%;
+    }
+
+    #brands-section .brand-box {
+        margin-left: 130px;
+    }
+
+    #brands-section .brand-serve-section {
+        margin-left: 15px;
+    }
+
+    #testimony-section .container h3 {
+        font-size: 40px;
+    }
+
+    #faq-section .container h5 {
+        font-size: 35px;
+    }
+
+    #faq-section .faq-container {
+        width: 90%;
+        height: 500px;
+    }
+
+    #intouch-section .container {
+        width: 90%;
+    }
+
+    #intouch-section .footer-left h3 {
+        font-size: 40px;
+    }
+
+    #intouch-section .footer-bottom .company img {
+        margin-left: 15px;
+    }
+
+    #intouch-section .footer-bottom .navi ul {
+        margin-right: 15px;
+    }
+
+    #intouch-section .footer-bottom .navi ul li {
+        margin-right: 30px;
+    }
+
 }
 
