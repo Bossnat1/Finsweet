@@ -272,7 +272,6 @@
 #query-section {
     height: 500px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 #query-section .car-section {
@@ -605,5 +604,215 @@
 
 #intouch-section .footer-bottom .navi ul li {
     margin-right: 40px;
+}
+
+
+@media (max-width: 425px) {
+  .main-header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .right-section {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+  }
+
+  .right-section .navigation ul {
+      flex-direction: column;
+      margin-top: 15px;
+  }
+
+  .right-section .navigation ul li {
+      margin-bottom: 15px;
+      margin-right: 0;
+  }
+
+  .right-section .navigation ul li a {
+      display: block;
+  }
+
+  .right-section .navigation {
+      border: none;
+      width: 100%;
+  }
+
+  .road-assistance {
+      display: none;
+  }
+
+  #hero-section .flex {
+      flex-direction: column;
+  }
+
+  #hero-section .text-section h1 {
+    font-size: 35px;
+}
+
+  #hero-section .text-section {
+      width: 100%;
+      order: 2;
+  }
+
+  #hero-section .image-section {
+      width: 100%;
+      order: 1;
+  }
+
+  .quote-flex {
+      flex-direction: column;
+  }
+
+  #quote-section .left-section, #quote-section .right-form-section {
+      width: 100%;
+  }
+
+  #quote-section .left-section h2 {
+      font-size: 40px;
+  }
+
+  #quote-section .right-form-section h3 {
+      font-size: 35px;
+  }
+
+  #quote-section .left-section .text-box {
+      width: 80%;
+  }
+
+  #quote-section .left-section .image-box {
+      width: 10%;
+  }
+
+  #third .help, #third .activities {
+      width: 100%;
+  }
+
+  #third .help p {
+      width: 100%;
+  }
+
+  .help h4 {
+      font-size: 40px;
+  }
+
+  #third .help {
+      margin-bottom: 30px;
+  }
+
+  .activities ul li{
+      margin-right: 0;
+      width: 100%;
+  }
+
+  #third .activities .image-circle {
+      margin-right: 40px;
+  }
+
+  #repair-maintenance h5 {
+      font-size: 35px;
+  }
+
+  #repair-maintenance h2 {
+      font-size: 16px;
+  }
+
+  #repair-maintenance .services .service-box {
+      width: 100%;
+  }
+
+  #query-section {
+      flex-direction: column;
+  }
+
+  #query-section .car-section {
+      width: 80%;
+      margin-bottom: 15px;
+  }
+
+  #query-section .orange-section {
+      width: 80%;
+      margin-bottom: 15px;
+  }
+
+  #query-section .orange-section h3 {
+      width: 70%;
+  }
+
+  #query-section .engine-section {
+      width: 80%;
+      margin-bottom: 15px;
+      height: 800px;
+  }
+
+  #experiences-section .experience-section {
+      display: none;
+  }
+
+  #brands-section .brand-box {
+      margin-left: 10px;
+      width: 80%;
+  }
+
+  #brands-section .brand-serve-section {
+      margin-left: 20px;
+      margin-bottom: 20px;
+  }
+
+  #testimony-section .container h3 {
+      font-size: 40px;
+  }
+
+  #testimony-section .testimony-slider {
+      flex-direction: column;
+  }
+
+  #testimony-section .testimony-slide {
+      width: 100%;
+  }
+
+  #faq-section .faq-container {
+      width: 100%;
+      height: 500px;
+  }
+
+  #faq-section .faq-container .faq-box {
+      margin-bottom: 10px;
+  }
+
+  #intouch-section .footer-left {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+
+  #intouch-section .footer-left h3 {
+      font-size: 35px;
+  }
+
+  #intouch-section .footer-right {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  #intouch-section .footer-bottom {
+      display: none;
+  }
+
+  #intouch-section .container {
+      height: 900px;
+      flex-direction: column;
+  }
+
+  #intouch-section .footer-left .social {
+      width: 60%;
+      margin-top: 20px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+    
 }
 
