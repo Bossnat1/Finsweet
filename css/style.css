@@ -839,7 +839,7 @@
     }
 
     #hero-section {
-        width: 90%;
+        width: 100%;
         margin-left: 15px;
     }
 
@@ -852,7 +852,7 @@
     }
 
     #quote-section {
-        width: 90%;
+        width: 100%;
     }
 
     #quote-section .container {
@@ -893,7 +893,7 @@
     }
 
     #repair-maintenance {
-        width: 90%;
+        width: 100%;
     }
 
     #repair-maintenance h5 {
@@ -910,7 +910,7 @@
 
     #query-section {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
 
     #query-section .car-section {
@@ -935,7 +935,7 @@
     }
 
     #testimony-section {
-        width: 90%;
+        width: 100%;
     }
 
     #testimony-section .container h3 {
@@ -947,7 +947,7 @@
     }
 
     #faq-section {
-        width: 90%;
+        width: 100%;
     }
 
     #faq-section .container h5 {
@@ -960,7 +960,7 @@
     }
 
     #intouch-section {
-        width: 90%;
+        width: 100%;
     }
 
     #intouch-section .container {
