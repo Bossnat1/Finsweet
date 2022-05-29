@@ -658,6 +658,7 @@
 
   #hero-section .image-section {
       width: 100%;
+      height: 400px;
       order: 1;
   }
 
@@ -671,6 +672,10 @@
 
   #quote-section .left-section h2 {
       font-size: 40px;
+  }
+
+  #quote-section .right-form-section input {
+      width: 90%;
   }
 
   #quote-section .right-form-section h3 {
@@ -695,10 +700,16 @@
 
   .help h4 {
       font-size: 40px;
+      width: 80%;
   }
 
   #third .help {
       margin-bottom: 30px;
+      width: 100%;
+  }
+
+  #third .activities {
+      margin-left: 5px;
   }
 
   .activities ul li{
@@ -708,6 +719,10 @@
 
   #third .activities .image-circle {
       margin-right: 40px;
+  }
+
+  #repair-maintenance {
+      width: 100%;
   }
 
   #repair-maintenance h5 {
@@ -820,6 +835,12 @@
     
     .right-section .navigation {
         border: none;
+        margin-right: 30px;
+    }
+
+    #hero-section {
+        width: 90%;
+        margin-left: 15px;
     }
 
     #hero-section .container {
@@ -828,6 +849,10 @@
 
     .text-section h1 {
         font-size: 37px;
+    }
+
+    #quote-section {
+        width: 90%;
     }
 
     #quote-section .container {
@@ -867,6 +892,10 @@
         margin-left: 20px;
     }
 
+    #repair-maintenance {
+        width: 90%;
+    }
+
     #repair-maintenance h5 {
         font-size: 37px;
     }
@@ -881,6 +910,7 @@
 
     #query-section {
         flex-direction: column;
+        width: 90%;
     }
 
     #query-section .car-section {
@@ -904,8 +934,20 @@
         margin-left: 15px;
     }
 
+    #testimony-section {
+        width: 90%;
+    }
+
     #testimony-section .container h3 {
         font-size: 40px;
+    }
+
+    #testimony-section .testimony-slider {
+        margin-left: 10px;
+    }
+
+    #faq-section {
+        width: 90%;
     }
 
     #faq-section .container h5 {
@@ -915,6 +957,10 @@
     #faq-section .faq-container {
         width: 90%;
         height: 500px;
+    }
+
+    #intouch-section {
+        width: 90%;
     }
 
     #intouch-section .container {
