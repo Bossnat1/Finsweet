@@ -666,6 +666,10 @@
       flex-direction: column;
   }
 
+  #quote-section {
+      width: 100%;
+  }
+
   #quote-section .left-section, #quote-section .right-form-section {
       width: 100%;
   }
@@ -705,11 +709,6 @@
 
   #third .help {
       margin-bottom: 30px;
-      width: 100%;
-  }
-
-  #third .activities {
-      margin-left: 5px;
   }
 
   .activities ul li{
@@ -734,7 +733,7 @@
   }
 
   #repair-maintenance .services .service-box {
-      width: 100%;
+      
   }
 
   #query-section {
@@ -766,8 +765,8 @@
   }
 
   #brands-section .brand-box {
-      margin-left: 10px;
-      width: 80%;
+      width: 100%;
+      align-items: flex-start;
   }
 
   #brands-section .brand-serve-section {
@@ -839,7 +838,6 @@
     }
 
     #hero-section {
-        width: 100%;
         margin-left: 15px;
     }
 
@@ -849,10 +847,6 @@
 
     .text-section h1 {
         font-size: 37px;
-    }
-
-    #quote-section {
-        width: 100%;
     }
 
     #quote-section .container {
@@ -892,10 +886,6 @@
         margin-left: 20px;
     }
 
-    #repair-maintenance {
-        width: 100%;
-    }
-
     #repair-maintenance h5 {
         font-size: 37px;
     }
@@ -910,7 +900,6 @@
 
     #query-section {
         flex-direction: column;
-        width: 100%;
     }
 
     #query-section .car-section {
@@ -934,20 +923,12 @@
         margin-left: 15px;
     }
 
-    #testimony-section {
-        width: 100%;
-    }
-
     #testimony-section .container h3 {
         font-size: 40px;
     }
 
     #testimony-section .testimony-slider {
         margin-left: 10px;
-    }
-
-    #faq-section {
-        width: 100%;
     }
 
     #faq-section .container h5 {
@@ -957,10 +938,6 @@
     #faq-section .faq-container {
         width: 90%;
         height: 500px;
-    }
-
-    #intouch-section {
-        width: 100%;
     }
 
     #intouch-section .container {
