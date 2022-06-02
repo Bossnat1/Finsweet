@@ -608,7 +608,7 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .main-header {
       flex-direction: column;
       align-items: flex-start;
@@ -664,6 +664,8 @@
 
   .quote-flex {
       flex-direction: column;
+      width: 100%;
+      margin-right: 10px;
   }
 
   #quote-section {
@@ -691,33 +693,16 @@
   }
 
   #quote-section .left-section .image-box {
-      width: 10%;
+      width: 11%;
   }
 
-  #third .help, #third .activities {
+  #third .container {
       width: 100%;
-  }
-
-  #third .help p {
-      width: 100%;
-  }
-
-  .help h4 {
-      font-size: 40px;
-      width: 80%;
   }
 
   #third .help {
-      margin-bottom: 30px;
-  }
-
-  .activities ul li{
-      margin-right: 0;
       width: 100%;
-  }
-
-  #third .activities .image-circle {
-      margin-right: 40px;
+      text-align: center;
   }
 
   #repair-maintenance {
@@ -736,42 +721,8 @@
       
   }
 
-  #query-section {
-      flex-direction: column;
-  }
-
-  #query-section .car-section {
-      width: 80%;
-      margin-bottom: 15px;
-  }
-
-  #query-section .orange-section {
-      width: 80%;
-      margin-bottom: 15px;
-  }
-
-  #query-section .orange-section h3 {
-      width: 70%;
-  }
-
-  #query-section .engine-section {
-      width: 80%;
-      margin-bottom: 15px;
-      height: 800px;
-  }
-
   #experiences-section .experience-section {
       display: none;
-  }
-
-  #brands-section .brand-box {
-      width: 100%;
-      align-items: flex-start;
-  }
-
-  #brands-section .brand-serve-section {
-      margin-left: 20px;
-      margin-bottom: 20px;
   }
 
   #testimony-section .container h3 {
@@ -824,10 +775,40 @@
       margin-top: 20px;
   }
 
+  #brands-section {
+      width: 100%;
+  }
+
+  #brands-section .brand-box {
+      width: 60%;
+      margin: 10px 10px;
+  }
+
+  .orange-btn {
+      margin-bottom: 20px;
+  }
+
+  #query-section .orange-section h3 {
+      text-align: center;
+      margin-left: 5px;
+  }
+
+  #third .activities {
+      width: 100%;
+  }
+
+  #third .activities .image-circle {
+      margin-right: 15px;
+  }
+
+  #third .activities .text-circle {
+      margin-left: 40px;
+  }
+
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 769px) { 
     .road-assistance {
         display: none;
     }
