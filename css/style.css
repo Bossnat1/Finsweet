@@ -608,205 +608,6 @@
 }
 
 
-@media (max-width: 426px) {
-  .main-header {
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  .right-section {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-  }
-
-  .right-section .navigation ul {
-      flex-direction: column;
-      margin-top: 15px;
-  }
-
-  .right-section .navigation ul li {
-      margin-bottom: 15px;
-      margin-right: 0;
-  }
-
-  .right-section .navigation ul li a {
-      display: block;
-  }
-
-  .right-section .navigation {
-      border: none;
-      width: 100%;
-  }
-
-  .road-assistance {
-      display: none;
-  }
-
-  #hero-section .flex {
-      flex-direction: column;
-  }
-
-  #hero-section .text-section h1 {
-    font-size: 35px;
-}
-
-  #hero-section .text-section {
-      width: 100%;
-      order: 2;
-  }
-
-  #hero-section .image-section {
-      width: 100%;
-      height: 400px;
-      order: 1;
-  }
-
-  .quote-flex {
-      flex-direction: column;
-      width: 100%;
-      margin-right: 10px;
-  }
-
-  #quote-section {
-      width: 100%;
-  }
-
-  #quote-section .left-section, #quote-section .right-form-section {
-      width: 100%;
-  }
-
-  #quote-section .left-section h2 {
-      font-size: 40px;
-  }
-
-  #quote-section .right-form-section input {
-      width: 90%;
-  }
-
-  #quote-section .right-form-section h3 {
-      font-size: 35px;
-  }
-
-  #quote-section .left-section .text-box {
-      width: 80%;
-  }
-
-  #quote-section .left-section .image-box {
-      width: 11%;
-  }
-
-  #third .container {
-      width: 100%;
-  }
-
-  #third .help {
-      width: 100%;
-      text-align: center;
-  }
-
-  #repair-maintenance {
-      width: 100%;
-  }
-
-  #repair-maintenance h5 {
-      font-size: 35px;
-  }
-
-  #repair-maintenance h2 {
-      font-size: 16px;
-  }
-
-  #repair-maintenance .services .service-box {
-      
-  }
-
-  #experiences-section .experience-section {
-      display: none;
-  }
-
-  #testimony-section .container h3 {
-      font-size: 40px;
-  }
-
-  #testimony-section .testimony-slider {
-      flex-direction: column;
-  }
-
-  #testimony-section .testimony-slide {
-      width: 100%;
-  }
-
-  #faq-section .faq-container {
-      width: 100%;
-      height: 500px;
-  }
-
-  #faq-section .faq-container .faq-box {
-      margin-bottom: 10px;
-  }
-
-  #intouch-section .footer-left {
-      width: 100%;
-      margin-bottom: 10px;
-      margin-top: 10px;
-  }
-
-  #intouch-section .footer-left h3 {
-      font-size: 35px;
-  }
-
-  #intouch-section .footer-right {
-      width: 100%;
-      margin-top: 10px;
-  }
-
-  #intouch-section .footer-bottom {
-      display: none;
-  }
-
-  #intouch-section .container {
-      height: 900px;
-      flex-direction: column;
-  }
-
-  #intouch-section .footer-left .social {
-      width: 60%;
-      margin-top: 20px;
-  }
-
-  #brands-section {
-      width: 100%;
-  }
-
-  #brands-section .brand-box {
-      width: 60%;
-      margin: 10px 10px;
-  }
-
-  .orange-btn {
-      margin-bottom: 20px;
-  }
-
-  #query-section .orange-section h3 {
-      text-align: center;
-      margin-left: 5px;
-  }
-
-  #third .activities {
-      width: 100%;
-  }
-
-  #third .activities .image-circle {
-      margin-right: 15px;
-  }
-
-  #third .activities .text-circle {
-      margin-left: 40px;
-  }
-
-}
-
 
 @media (max-width: 769px) { 
     .road-assistance {
@@ -942,4 +743,105 @@
     }
 
 }
+
+
+@media (max-width: 425px) {
+    .header-mobile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    #hero-section .hero-mobile {
+        flex-direction: column;
+    }
+
+    #hero-section .text-section {
+        width: 100%;
+        order: 2;
+    }
+
+    #hero-section .image-section {
+        width: 100%;
+        order: 1;
+    }
+
+    #quote-section .quote-flex {
+        flex-direction: column;
+    }
+
+    #quote-section .left-section {
+        width: 100%;
+    }
+
+    #quote-section .right-form-section {
+        width: 90%;
+    }
+
+    .quote-mobile {
+        flex-direction: column;
+    }
+
+    #third .help {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    #third .activities {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    #repair-maintenance .services .service-box {
+        width: 100%;
+    }
+
+    #query-section .orange-section h3 {
+        margin-left: 10px;
+    }
+
+    #experiences-section .experience-section {
+        display: none;
+    }
+
+    #brands-section .brand-box {
+        margin-left: 30px;
+    }
+
+    #brands-section .brand-serve-section {
+        margin-bottom: 12px;
+        margin-left: 35px;
+    }
+
+    #testimony-section .testimony-slider {
+        flex-direction: column;
+    }
+
+    #testimony-section .testimony-slide {
+        width: 100%;
+    }
+
+    #intouch-section .intouch-section {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    #intouch-section .footer-left, #intouch-section .footer-right {
+        width: 100%;
+    }
+
+    #intouch-section .footer-bottom {
+        display: none;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 80%;
+    }
+}
+
+
+
 
